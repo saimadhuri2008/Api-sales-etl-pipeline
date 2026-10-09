@@ -1,0 +1,49 @@
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+
+# ==============================
+# Python virtual environments
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Python cache / compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Generated pipeline logs
+# ==============================
+logs/*.log
+logs/*.csv
+
+# ==============================
+# Local/generated data
+# ==============================
+data/*.csv
+data/*.json
+
+# ==============================
+# IDE / editor files
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Test / tooling cache
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
